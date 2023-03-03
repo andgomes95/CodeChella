@@ -15,7 +15,7 @@ export default {
 
 <style scoped>
 .column {
-  padding: 2rem;
+  padding-top: 2rem;
 }
 a {
   color: #fff;
