@@ -2,9 +2,9 @@
   <nav>
     <div class="columns is-multiline is-mobile is-desktop is-centered navbar">
       <div class="column is-one-quarter-desktop is-full-tablet is-8-mobile">
-        <a href="https://bulma.io">
+        <router-link to="/">
           <img src="@/assets/logo-codechella.png" alt="CodeChella 2023">
-        </a>
+        </router-link>
       </div>
       <div class="column is-hidden-mobile is-8-desktop is-offset-1-desktop is-full-tablet">
         <OptionsNavBar />

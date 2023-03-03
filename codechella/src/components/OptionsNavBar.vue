@@ -1,9 +1,9 @@
 <template>
   <div class="columns">
-    <div class="column"><a>A experiencia</a></div>
-    <div class="column"><a>Mapa de Setores</a></div>
-    <div class="column"><a>Informacoes</a></div>
-    <div class="column"><a>Ingresso</a></div>
+    <div class="column"><router-link to="/experience">A experiencia</router-link></div>
+    <div class="column"><router-link to="/sectionMap">Mapa de Setores</router-link></div>
+    <div class="column"><router-link to="/info">Informacoes</router-link></div>
+    <div class="column"><router-link to="/tickets">Ingresso</router-link></div>
   </div>
 </template>
 

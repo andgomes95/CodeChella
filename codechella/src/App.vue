@@ -1,8 +1,7 @@
 <template>
   <div>
     <NavBar />
-    <BannerInitialPage />
-    <HomePage />
+    <router-view></router-view>
     <FooterContacts />
   </div>
 </template>
@@ -10,16 +9,12 @@
 <script>
 import NavBar from './components/NavBar.vue';
 import FooterContacts from './components/FooterContacts.vue';
-import BannerInitialPage from './components/BannerInitialPage.vue';
-import HomePage from './pages/HomePage.vue';
 
 export default {
   name: 'App',
   components: {
     NavBar,
-    FooterContacts,
-    BannerInitialPage,
-    HomePage,
+    FooterContacts
   }
 }
 </script>

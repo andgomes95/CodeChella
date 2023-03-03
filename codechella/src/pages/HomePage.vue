@@ -1,5 +1,6 @@
 <template>
   <div class="home">
+    <BannerInitialPage />
     <div class="content">
       <AboutEvent />
       <LineUp />
@@ -11,11 +12,14 @@
 <script>
 import LineUp from '../components/HomePage/LineUp.vue';
 import AboutEvent from '../components/HomePage/AboutEvent.vue';
+import BannerInitialPage from '../components/BannerInitialPage.vue';
+
 export default {
   name: 'HomePage',
   components: {
     LineUp,
-    AboutEvent
+    AboutEvent,
+    BannerInitialPage
   }
 }
 </script>
