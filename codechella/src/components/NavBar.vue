@@ -9,8 +9,8 @@
       <div class="column is-hidden-mobile is-6-desktop is-offset-1-desktop is-full-tablet">
         <OptionsNavBar />
       </div>
-      <div class="is-mobile is-hidden-tablet is-1-offset-mobile">
-        Foo
+      <div class="is-hidden-tablet is-1-offset-mobile">
+        <font-awesome-icon icon="fa-bars" />
       </div>
 
     </div>
@@ -31,5 +31,9 @@ export default {
 <style scoped>
 .navbar{
   background-color: #2E7BA2;
+}
+.fa-bars{
+  padding: 2rem;
+  font-size: 20px;
 }
 </style>
