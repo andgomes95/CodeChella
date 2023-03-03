@@ -21,7 +21,7 @@ export default {
 
 <style>
 #app {
-  font-family: Raleway, Helvetica, Arial, sans-serif;
+  font-family: Raleway;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

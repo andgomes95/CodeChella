@@ -9,13 +9,13 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 /* import specific icons */
-import { faBars } from '@fortawesome/free-solid-svg-icons'
+import { faBars, faTicket } from '@fortawesome/free-solid-svg-icons'
 import { faTwitch, faWhatsapp, faInstagram, faTwitter  } from '@fortawesome/free-brands-svg-icons'
 
 import {createWebHashHistory, createRouter } from 'vue-router';
 import HomePage from '@/pages/HomePage.vue'
 /* add icons to the library */
-library.add(faBars,faInstagram,faTwitch,faTwitter,faWhatsapp)
+library.add(faBars,faInstagram,faTwitch,faTwitter,faWhatsapp,faTicket)
 
 const routes = [
   {path: '/', component: HomePage},
