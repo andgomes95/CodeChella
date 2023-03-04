@@ -1,9 +1,9 @@
 <template>
-  <div class="columns about">
-    <div class="column is-4 is-offset-2 is-full-mobile">
-      <figure class="image is-square-mobile"><img src="@/assets/present-homepage.png" alt="CodeChella 2023 - present homepage"></figure>
+  <div class="columns is-multiline">
+    <div class="column is-full-touch is-4-desktop is-offset-2-desktop">
+      <figure class="image"><img src="@/assets/present-homepage.png" alt="CodeChella 2023 - present homepage"></figure>
     </div>
-    <div class="column is-4 is-full-mobile">
+    <div class="column is-full-touch is-4-desktop">
       <h2><p>{{"< 11 e 12 de Marco >"}}</p>
       {{"Alurodromo de Sao Paulo"}}</h2>
       <div class="block contentAbout">
