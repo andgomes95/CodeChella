@@ -1,7 +1,7 @@
 <template>
   <div class="columns is-multiline">
     <div class="column is-full-touch is-4-desktop is-offset-2-desktop">
-      <figure class="image"><img src="@/assets/present-homepage.png" alt="CodeChella 2023 - present homepage"></figure>
+      <figure class="image"><img src="@/assets/images/present-homepage.png" alt="CodeChella 2023 - present homepage"></figure>
     </div>
     <div class="column is-full-touch is-4-desktop">
       <h2><p>{{"< 11 e 12 de Marco >"}}</p>
@@ -9,12 +9,14 @@
       <div class="block contentAbout">
         Hora de programar nossa memoria com novas lembrancas! Uma nova experiencia sobre linguagens e, claro, tecnologia! Somos um festival diverso, com varios artistas e referencias. Divirta-se!
       </div>
-      <button class="button">
-        <div>
-          {{"Comprar Ingresso!" }}
-        </div>
-        <font-awesome-icon class="icon" icon="fa-solid fa-ticket" />
-      </button>
+      <router-link to="/tickets">
+        <button class="button">
+          <div>
+            {{"Comprar Ingresso!" }}
+          </div>
+          <font-awesome-icon class="icon" icon="fa-solid fa-ticket" />
+        </button>
+      </router-link>
     </div>
   </div>
 </template>

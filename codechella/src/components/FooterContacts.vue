@@ -2,7 +2,7 @@
   <footer class="footer">
     <div class="content has-text-left	columns">
       <div class="column column is-half is-offset-2 our-networks">
-        <p><img src="@/assets/logo-footer.png" alt="logo codechella" /></p>
+        <p><img src="@/assets/images/logo-footer.png" alt="logo codechella" /></p>
         Acesse nossas redes:
         <font-awesome-icon class="icon" icon="fa-brands fa-whatsapp" />
         <font-awesome-icon class="icon" icon="fa-brands fa-twitch" />

@@ -5,7 +5,7 @@
       <AboutEvent />
       <LineUp />
     </div>
-    <figure class="image"><img src="@/assets/footer-image.png" alt="CodeChella 2023"></figure>
+    <figure class="image"><img src="@/assets/images/footer-image.png" alt="CodeChella 2023"></figure>
   </div>
 </template>
 
